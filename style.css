@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template: a b c;
+}
+
+button {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+h1 {
+  display: flex;
+  transform: rotate(-180deg);
+  justify-content: flex-end;
+  align-items: center;
+}
