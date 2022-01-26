@@ -1,13 +1,54 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template: a b c;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template:
+    a b c
+    d e f
+    g h i;
 }
 
-button {
+.btn1 {
   margin: 40px;
   padding: 20px;
   font-size: 30px;
+  background-color: darksalmon;
+  border-radius: 5px;
+}
+
+.btn2 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: darkseagreen;
+  border-radius: 5px;
+}
+
+.btn3 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+.btn4 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: lightyellow;
+  border-radius: 5px;
+}
+
+.btn5 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: lightpink;
+  border-radius: 5px;
 }
 
 h1 {
@@ -15,4 +56,21 @@ h1 {
   transform: rotate(-180deg);
   justify-content: flex-end;
   align-items: center;
+}
+
+.math,
+.surround,
+.search {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.display3,
+.display2,
+.display {
+  display: flex;
+  border: 1px dotted black;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
