@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   padding: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 10px 1fr 10px 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 10px;
   column-gap: 10px;
@@ -51,6 +51,38 @@
   border-radius: 5px;
 }
 
+.btn6 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
+.btn7 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: lightsalmon;
+  border-radius: 5px;
+}
+
+.btn8 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: lightpink;
+  border-radius: 5px;
+}
+
+.btn9 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: lightyellow;
+  border-radius: 5px;
+}
+
 h1 {
   display: flex;
   transform: rotate(-180deg);
@@ -58,6 +90,15 @@ h1 {
   align-items: center;
 }
 
+.two {
+  justify-self: center;
+  align-self: center;
+}
+
+.compare1,
+.compare2,
+.firstnumber,
+.secondnumber,
 .math,
 .surround,
 .search {
@@ -65,6 +106,10 @@ h1 {
   margin-bottom: 80px;
 }
 
+.display7,
+.display6,
+.display5,
+.display4,
 .display3,
 .display2,
 .display {
