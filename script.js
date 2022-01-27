@@ -69,3 +69,39 @@ function toggle() {
   document.getElementById("displaytext7").innerText =
     isOn === true ? "On" : "Off";
 }
+
+let number2 = 3;
+
+function addFive() {
+  if (number2 < 5) {
+    number2++;
+    document.getElementById("displaytext8").innerText = number2;
+  } else {
+    number2 = 1;
+    document.getElementById("displaytext8").innerText = number2;
+    number2++;
+  }
+}
+
+let add = true;
+
+function bounce() {
+  if (add) {
+    number2++;
+    if (number2 > 4) {
+      add = false;
+    }
+  } else {
+    number2--;
+    if (number2 < 2) {
+      add = true;
+    }
+  }
+
+  document.getElementById("displaytext9").innerText = number2;
+}
+
+function toUpperList() {
+  let words = document.getElementById("inputColon").value;
+  document.getElementById("displaytext10").innerText = words.toUpperCase();
+}

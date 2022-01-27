@@ -83,6 +83,31 @@
   border-radius: 5px;
 }
 
+.btn10 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: darkkhaki;
+  border-radius: 5px;
+}
+
+.btn11 {
+  margin: 40px;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+  background-color: darkslategrey;
+  border-radius: 50px;
+}
+
+.btn12 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
 h1 {
   display: flex;
   transform: rotate(-180deg);
@@ -95,6 +120,7 @@ h1 {
   align-self: center;
 }
 
+.inputColon,
 .compare1,
 .compare2,
 .firstnumber,
@@ -106,6 +132,9 @@ h1 {
   margin-bottom: 80px;
 }
 
+.display10,
+.display9,
+.display8,
 .display7,
 .display6,
 .display5,
@@ -118,4 +147,5 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 50px;
+  height: 80px;
 }
